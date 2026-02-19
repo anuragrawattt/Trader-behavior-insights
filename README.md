@@ -33,9 +33,7 @@ Trader-behavior-insights/
 │── outputs/       # charts + tables
 │── README.md      # overview + setup + insights
 
-
-
-📊 Deliverables
+📊 ## Deliverables
 ## 📄 Summary
 
 ### Methodology
