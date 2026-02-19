@@ -1,4 +1,4 @@
-Overview
+# Overview
 This project analyzes trader behavior across different market sentiments using daily trading metrics and Fear & Greed sentiment data.  
 It is divided into three parts: **Data Prep (Part A)**, **Analysis (Part B)**, and **Actionable Strategies (Part C)**.
 
@@ -25,14 +25,34 @@ Part C — Actionable Strategies
 Open notebooks/PART-C.ipynb.
 This notebook contains written insights and rules of thumb based on the analysis.
 No code is required — just strategic recommendations.
-
-📂 Project Structure
+```
 Trader-behavior-insights/
-│── data/          # raw input files
-│── notebooks/     # Part A, B, C notebooks
-│── outputs/       # charts + tables
-│── README.md      # overview + setup + insights
-
+│
+├── data/                  
+│   ├── daily_metrics.csv
+│   ├── fear_greedupdated.csv
+│   └── other raw files
+│
+├── notebooks/             
+│   ├── PartA.ipynb        
+│   ├── PART-B.ipynb       
+│   └── PART-C.ipynb      
+│
+├── outputs/               
+│   ├── charts/           
+│   │   ├── pnl_by_sentiment.png
+│   │   ├── leverage_distribution.png
+│   │   └── long_short_ratio.png
+│   └── tables/            
+│       ├── performance_by_sentiment.csv
+│       ├── trade_frequency.csv
+│       ├── position_sizes.csv
+│       ├── long_short_bias.csv
+│       ├── leverage_distribution.csv
+│       └── trader_stats.csv
+│
+└── README.md            
+```
 ## 📊 Deliverables
 List charts, tables, and insights.
 
