@@ -13,14 +13,23 @@ How to Run
 Part A — Data Preparation
 Open notebooks/PartA.ipynb in Jupyter Notebook or VS Code.
 This notebook cleans raw trades, handles duplicates, and generates daily metrics.
+Loads both datasets and document:
+1. number of rows/columns
+2. missing values / duplicates
+3. Create the key metrics
 
 Part B — Sentiment Analysis
 Run notebooks/PART-B.ipynb.
 This merges metrics with sentiment data, compares performance across sentiment categories, and generates charts/tables.
-Outputs are saved automatically into:
+Outputs are saved in:
 - outputs/charts/ (PNG plots)
 - outputs/tables/ (CSV summaries)
 
+if you want to save outputs
+use
+```
+pandas_df.to_csv("locationofthatfile,index=True)
+```
 Part C — Actionable Strategies
 Open notebooks/PART-C.ipynb.
 This notebook contains written insights and rules of thumb based on the analysis.
