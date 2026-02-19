@@ -52,14 +52,14 @@ List charts, tables, and insights.
 - **Position Sizes:** USD exposure shrinks in Fear, but token counts don’t always shrink proportionally — hidden risk.
 - **Bias:** Long positions dominate in Greed, shorts dominate in Fear, showing herd‑driven sentiment shifts.
 - **Trader Segments:** Frequent traders smooth volatility better than infrequent ones; consistent traders outperform inconsistent ones.
-Performance on Fear vs Greed Days
-### Insights
+## Performance on Fear vs Greed Days
+Insights
 - If PnL is lower on Fear days, it suggests traders struggle in risk‑off sentiment.
 - If Win Rate drops on Fear days, it shows more losing trades.
 - If Leverage is higher on Greed days, traders are more aggressive when sentiment is positive.
 
-Behavior Changes Based on Sentiment
-### Insights
+## Behavior Changes Based on Sentiment
+Insights
 - If trade frequency is higher on Greed days, traders chase opportunities.
 - If long/short ratio shifts, it shows bias (e.g., more longs on Greed days).
 - Larger Size USD on Greed days = traders risk more when confident.
